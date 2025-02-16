@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(49 72 77);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 97px;
+    background-color: rgb(55 103 73);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(128, 128, 185);
+    font-size: 1.02rem;
+
+}
+
+main hr {
+    border: 0;
+    background: rgb(0 47 34);
+    height: 1.2px;
+    margin: 40px 84px;
+
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.services-section {
+    text-align: center;
+    width: 84%;
+    margin: 150px auto;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 100px;
+}
+
+h2 span {
+    color: #3d8bfd;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.service-box {
+    background-color: #252b3a;
+    padding: 47px;
+    border-radius: 12px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+.service-box i {
+    font-size: 40px;
+    color: #3d8bfd;
+    margin-bottom: 10px;
+}
+
+.service-box h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.service-box p {
+    font-size: 14px;
+    color: #bbb;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.read-more {
+    background-color:#337855;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.read-more:hover {
+    background-color:rgb(17, 31, 34);
+}
+
+.service-box.active {
+    border: 3px solid rgb(49 72 77);
+    padding: 27px;
+}
